@@ -23,9 +23,7 @@ const NavbarItem = (props) => {
       })}
       onClick={() => { handleClick(); }}
     >
-      <Row
-        position="baseline"
-      >
+      <Row>
         <Column>
           <Icon
             icon={icon}

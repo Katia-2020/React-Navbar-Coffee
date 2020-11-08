@@ -1,0 +1,23 @@
+.logo {
+  &--size-small {
+    width: 40px;
+  }
+
+  &--size-medium {
+    width: 70px;
+  }
+
+  &--size-big {
+    width: 100px;
+  }
+
+  &--bkgr {
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
+  }
+}

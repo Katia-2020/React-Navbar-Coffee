@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import classnames from 'classnames/bind';
 import * as icons from './svg';
 import styles from './icon.scss';
@@ -20,6 +21,12 @@ const Icon = (props) => {
       dangerouslySetInnerHTML={{ __html: glyth }}
     />
   );
+};
+
+
+Icon.propTypes = {
+  icon: PropTypes.string,
+  theme: PropTypes.string,
 };
 
 export default Icon;

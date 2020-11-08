@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import styles from './navbar.scss';
 import { Row, Column } from '../grid';
 import NavbarItem from '../navbarItem';
@@ -45,6 +46,15 @@ const Navbar = (props) => {
       </Row>
     </div>
   );
+};
+
+Navbar.defaultProps = {
+  onButtonClick: () => {},
+};
+
+Navbar.propTypes = {
+  option: PropTypes.string,
+  onButtonClick: PropTypes.func,
 };
 
 export default Navbar;

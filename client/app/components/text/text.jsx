@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import classnames from 'classnames/bind';
 import styles from './text.scss';
 
@@ -19,6 +20,14 @@ const Text = (props) => {
       {text}
     </div>
   );
+};
+
+
+Text.propTypes = {
+  bold: PropTypes.bool,
+  upper: PropTypes.bool,
+  theme: PropTypes.string,
+  text: PropTypes.string,
 };
 
 export default Text;

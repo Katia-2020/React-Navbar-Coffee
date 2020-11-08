@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import classnames from 'classnames/bind';
 import styles from './button.scss';
 import { Row, Column } from '../grid';
@@ -71,5 +72,12 @@ class Button extends React.Component {
     );
   }
 }
+
+
+Button.propTypes = {
+  text: PropTypes.string,
+  theme: PropTypes.string,
+  icon: PropTypes.string,
+};
 
 export default Button;

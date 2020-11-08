@@ -50,6 +50,7 @@ const NavbarItem = (props) => {
   );
 };
 
+
 NavbarItem.defaultProps = {
   onClick: () => {},
 };

@@ -23,6 +23,7 @@ const Icon = (props) => {
   );
 };
 
+
 Icon.propTypes = {
   icon: PropTypes.string,
   theme: PropTypes.string,

@@ -22,6 +22,7 @@ const Text = (props) => {
   );
 };
 
+
 Text.propTypes = {
   bold: PropTypes.bool,
   upper: PropTypes.bool,

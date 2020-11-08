@@ -22,6 +22,7 @@ const Column = (props) => {
   );
 };
 
+
 Column.propTypes = {
   children: PropTypes.node,
   grow: PropTypes.bool,
